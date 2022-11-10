@@ -1,4 +1,5 @@
-function exibirDados(){
+function exibirDados(event){
+    event.preventDefault()
     let email = document.getElementById("campo-email").value;
 
     let senha = document.getElementById("campo-senha").value;
